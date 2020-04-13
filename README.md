@@ -7,3 +7,5 @@ the extract_pdbs application of Rosetta can be used to extract files in pdb form
 the params files required for interpreting small molecule topology are found in the
 protein-ligand->params subfolder. example pdb extraction scripts are found in the
 respective folders.
+
+the extraction script examples were varified to be working with Rosetta 3.12.
