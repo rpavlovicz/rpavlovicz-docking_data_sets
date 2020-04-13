@@ -1,7 +1,7 @@
 infile=$1
 
-$ROSETTA_HOME/main/source/bin/extract_pdbs.linuxgccrelease \
+$ROSETTA_HOME/source/bin/extract_pdbs.macosclangrelease \
   -database $ROSETTA_HOME/main/database \
-  -force_silent_bitflip_on_read \
-  -extra_res_fa ../params/3EHY.params
+  -extra_res_fa params/2bsm.params \
+  -in:file:silent_struct_type binary \
   -in:file:silent $infile
