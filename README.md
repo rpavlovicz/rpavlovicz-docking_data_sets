@@ -1,11 +1,11 @@
 # rpavlovicz-docking_data_sets
-protein-protein and protein-ligand data sets used in Rosetta score function development
+Protein-protein and protein-ligand data sets used in Rosetta score function development
 
-compressed files contain near native and decoy docking poses for protein-protein and 
-protein-ligand data sets. these files are in the Rosetta silent file format.
-the extract_pdbs application of Rosetta can be used to extract files in pdb format.
-the params files required for interpreting small molecule topology are found in the
-protein-ligand->params subfolder. example pdb extraction scripts are found in the
+Compressed files contain near-native and decoy docking poses for protein-protein and 
+protein-ligand data sets. These files are in the Rosetta silent file format.
+The 'extract_pdbs' application of Rosetta can be used to extract files into pdb format.
+The params files required for interpreting small molecule topology are found in the
+protein-ligand->params subfolder. Example pdb extraction scripts are found in the
 respective folders.
 
-the extraction script examples were varified to be working with Rosetta 3.12.
+The extraction script examples were verified to be working with Rosetta 3.12.
